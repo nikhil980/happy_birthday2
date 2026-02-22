@@ -11,9 +11,9 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest  Anshika,
+    const letterText = `My Dearest  Shubhangi,
 
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
+On this very special day, 😂 I’m beyond lucky to call you my friend. No matter where life takes us, I know our bond will always stay strong. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
 
 You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
 
@@ -22,7 +22,7 @@ Thank you for being the wonderful, amazing, absolutely fantastic person that you
 Happy Birthday, beautiful soul! 🎂✨
 
 With all my love and warmest wishes,
-Forever Yours 💕`
+Be Happy forever💕`
 
     useEffect(() => {
         if (showText) {
